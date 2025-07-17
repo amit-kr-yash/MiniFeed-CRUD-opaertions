@@ -27,16 +27,16 @@ A simple web app built using **Node.js**, **Express**, and **EJS** that demonstr
 ## 📸 Screenshots
 
 ### 🏠 Homepage (`/posts`)
-![MiniFeed Homepage](./screenshots/posts_home.png)
+![MiniFeed Homepage](./posts_home.png)
 
 ### 🆕 Create New Post (`/posts/new`)
-![Create Post](./screenshots/create_post.png)
+![Create Post](./create_post.png)
 
 ### 📄 View a Post (`/posts/:id`)
-![View Post](./screenshots/view_post.png)
+![View Post](./view_post.png)
 
 ### ✏️ Edit Post (`/posts/:id/edit`)
-![Edit Post](./screenshots/edit_post.png)
+![Edit Post](./edit_post.png)
 
 ---
 
