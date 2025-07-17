@@ -27,16 +27,16 @@ A simple web app built using **Node.js**, **Express**, and **EJS** that demonstr
 ## 📸 Screenshots
 
 ### 🏠 Homepage (`/posts`)
-![MiniFeed Homepage](./posts_home.png)
+![MiniFeed Homepage](./screenshots/posts_home.png)
 
 ### 🆕 Create New Post (`/posts/new`)
-![Create Post](./create_post.png)
+![Create Post](./screenshots/create_post.png)
 
 ### 📄 View a Post (`/posts/:id`)
-![View Post](./view_post.png)
+![View Post](./screenshots/view_post.png)
 
 ### ✏️ Edit Post (`/posts/:id/edit`)
-![Edit Post](./edit_post.png)
+![Edit Post](./screenshots/edit_post.png)
 
 ---
 
@@ -46,15 +46,23 @@ A simple web app built using **Node.js**, **Express**, and **EJS** that demonstr
 
 ```bash
 git clone https://github.com/amit-kr-yash/MiniFeed-CRUD-opaertions.git
+```
 
 ### 2. Install dependencies
 
 ```bash
 npm install
+```
 
 ### 3. Start the server
 
 ```bash
 node index.js
+```
+
+### 4. Run Locally
+
+```bash
+http://localhost:8080/posts
 
 
