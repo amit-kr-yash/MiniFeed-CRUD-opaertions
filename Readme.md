@@ -47,3 +47,14 @@ A simple web app built using **Node.js**, **Express**, and **EJS** that demonstr
 ```bash
 git clone https://github.com/amit-kr-yash/MiniFeed-CRUD-opaertions.git
 
+### 2. Install dependencies
+
+```bash
+npm install
+
+### 3. Start the server
+
+```bash
+node index.js
+
+
