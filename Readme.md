@@ -45,7 +45,7 @@ A simple web app built using **Node.js**, **Express**, and **EJS** that demonstr
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/amit-kr-yash/MiniFeed-CRUD-opaertions.git
+git clone https://github.com/amit-kr-yash/MiniFeed-CRUD-operations.git
 ```
 
 ### 2. Install dependencies
