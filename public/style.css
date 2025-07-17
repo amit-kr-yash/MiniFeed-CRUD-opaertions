@@ -1,0 +1,124 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    padding: 2rem;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+/* Container for all posts */
+.postofposts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+/* Each post card */
+.post {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 1.5rem rgba(0,0,0,0.15);
+}
+
+/* Username */
+.post .user {
+    font-size: 1.2rem;
+    color: #2980b9;
+    margin-bottom: 0.5rem;
+}
+
+/* Post content */
+.post .content {
+    font-size: 1.05rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Links */
+.post a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-right: 1rem;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Form and delete button */
+.post form {
+    display: inline;
+}
+
+.post button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post button:hover {
+    background-color: #c0392b;
+}
+
+/* Create new post link */
+a[href$="/posts/new"] {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #2ecc71;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a[href$="/posts/new"]:hover {
+    background-color: #27ae60;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .post {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
